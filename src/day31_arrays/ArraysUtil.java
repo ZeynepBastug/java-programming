@@ -7,17 +7,18 @@ public class ArraysUtil {
          * It is located in java.util package.
          * import java.util.Arrays;
          *
-         * 1) sort(array) method:
+         * 1) Arrays.sort(arrayName) method:
          *    it'll sort the array in ascending (small to large) order
          *    a - z
+         *    1 - 100..
          *
          * int[] nums = {5, 1, 7, 0};
          * Arrays.sort(nums);
          *
          * nums -> {0, 1, 3, 5, 7}
          *
-         * 2) Arrays.toString(arrayname);
-         *    it'll help us print array values in single statement without using a loop.
+         * 2) Arrays.toString(arrayName);
+         *    it'll help us print array values in single statement WITHOUT using a loop.
          *    It'll convert any array to String, and help print in one statement.
          *
          * int[] nums = {5, 1, 7, 0};
@@ -37,7 +38,7 @@ public class ArraysUtil {
         System.out.println("min value: " + nums[0]);
         System.out.println("max value: " + nums[nums.length-1]);
 
-        // Arrays.sort(nums, Collections.reverseOrder())
+        // Arrays.sort(nums);, Collections.reverseOrder())
 
         String[] words = {"java", "C#", "C++", "Kotlin", "Python", "Ruby", "Assembly"};
         System.out.println(Arrays.toString(words));

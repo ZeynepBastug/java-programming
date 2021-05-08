@@ -14,13 +14,12 @@ public class ForLoopArray {
         //        System.out.println(nums[i]);
         //    }
 
-        // FOR EACH loop: is used with collections of data in java, we can use FOR each loop with arrays, arraylists, maps,
+        // FOR EACH LOOP: is used with collections of data in java, we can use FOR each loop with arrays, arraylists, maps,
         // sets, or any other collections/data structures.
 
-        // FRO EACH LOOP works ONLY with Collection of data.
+        // FOR EACH LOOP works ONLY with Collection of data.
 
         // int[] nums = {33, 11, 66};
-
         // for(int each : nums) {
         //    System.out.println(eachNum);
         // }

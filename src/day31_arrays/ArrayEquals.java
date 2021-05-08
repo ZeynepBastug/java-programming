@@ -5,8 +5,8 @@ import java.util.*;
 public class ArrayEquals {
     public static void main(String[] args) {
         // EQUALS METHOD IN ARRAYS CLASS:
-        //   Accepts 2 arrays of same type and returns true:
-        //         If arrays are same length
+        //   Accepts 2 arrays of the same type and returns true:
+        //         If arrays are the same length
         //         and have same data in same order
         //   otherwise
         //         returns false

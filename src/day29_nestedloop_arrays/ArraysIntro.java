@@ -20,8 +20,8 @@ public class ArraysIntro {
         // String city5 = "Hamilton";
 
 
-        // We could use 5 different variables, what if want to write program for all 100 cities of Ontario.
-        // Program that stores emails of all students in B22.
+        // We could use 5 different variables, what if want to write program for all 100 cities in Ontario.
+        // Program that stores emails of all students enrolled in B22.
         // String email1, email2, email3... email400;
 
         // In programming, we always deal with large amounts of data of different types. or some groups of data.
@@ -59,7 +59,7 @@ public class ArraysIntro {
         System.out.println(nums[i]);
 
         // how to find out the size of the array.
-        System.out.println("number of elements: " + nums.length);  // no paranthesis
+        System.out.println("number of elements: " + nums.length);  // no parenthesis
         // store length of array into len variable
         int len = nums.length;
         System.out.println("len = " + len);
@@ -80,7 +80,7 @@ public class ArraysIntro {
         // 2) Declare and assign value in same statement.
         //    int[] nums = {234, 12, 345, 234, 574, 90}
         //    In above example, we declare array with size 6 and assigned values in same statement.
-        // This way is good to use when we have already have data to assign to our array.
+        // This way is good to use when we already have data to assign to our array.
 
         // 3) Declare and assign value in same statement.
         //    double[] prices = new double[]{10.3, 44.0, 23.99};

@@ -2,6 +2,7 @@ package day29_nestedloop_arrays;
 
 public class NestedForLoop {
     public static void main(String[] args) {
+
         for(int minute = 1; minute <= 10; minute++){
             System.out.println("\nminute = " + minute);
             for(int second = 1; second <= 60; second++){
@@ -18,8 +19,8 @@ public class NestedForLoop {
         //      }
 
         // How does it work:
-        //   For each single iteration of  OUTER LOOP, INNER LOOP completes full cycle each time.0
-        // OUTER LOOP equals 1, before outer loop goes ++, increases, the inner loop needs to complete FULL CYCLE (1 to 5)
+        //  For each single iteration of OUTER LOOP, INNER LOOP completes FULL CYCLE each time.
+        //  OUTER LOOP equals 1, before outer loop goes ++, increases, the inner loop needs to complete FULL CYCLE (1 to 5)
 
         for(int minute = 0; minute <= 10; minute++ ){
             for (int second = 0; second <= 59; second++){
