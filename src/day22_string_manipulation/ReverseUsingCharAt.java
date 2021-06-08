@@ -5,7 +5,7 @@ import java.lang.*;
 public class ReverseUsingCharAt {
     public static void main(String[] args) {
         // String manipulation methods:
-        // - equals() -> checks if value equals another string. Case sensitive
+        // - equals() -> checks if value equals to another string. Case sensitive
         // - equalsIgnoreCase() -> checks if value equals another string, case insensitive
         // - length() -> returns count of characters in string
         // - toUpperCase() -> converts all letters to uppercase

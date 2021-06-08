@@ -18,9 +18,9 @@ public class IfWithoutElse {
 
         }
 
-        System.out.println("Welcome to " + country);
+        System.out.println("Welcome to the " + country);
 
-        // When we write if statement, else is block is not mandatory.
+        // When we write if statement, else is block, not mandatory.
 
 
 

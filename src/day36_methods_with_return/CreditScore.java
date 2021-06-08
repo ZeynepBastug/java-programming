@@ -34,6 +34,7 @@ public class CreditScore {
 
 
     public static int getCreditScore() {
+
         return 800;
     }
 

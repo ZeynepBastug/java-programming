@@ -5,7 +5,7 @@ public class IndexOfExamples {
         // charAt(index) vs indexOf(string)
         // they work differently:
         //         charAt reads a character at certain index
-        //         indexOf searches for string and return index nmber
+        //         indexOf searches for string and return index number
 
         //         charAt returns -> char (single character) at given position
         //         indexOf returns -> int (index/position number) for the string

@@ -3,7 +3,7 @@ package day35_methods_with_param;
 public class Counters {
     public static void main(String[] args) {
         count(10);
-        // I make sure the code i write is maintainable and reusable, by writing many custom methods with parameters for
+        // I need make sure the code i write is maintainable and reusable, by writing many custom methods with parameters for
         // different programming and automation purposes
 
         int end = 999;

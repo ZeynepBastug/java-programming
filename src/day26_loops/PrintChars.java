@@ -9,7 +9,7 @@ public class PrintChars {
 
         // FOR LOOP to start from 0 till length(last index)
 
-         String word = "java";
+        String word = "java";
         for(int i = 0; i < word.length(); i++) {
             System.out.println(word.charAt(i));
         }

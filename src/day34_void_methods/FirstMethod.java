@@ -12,7 +12,7 @@ public class FirstMethod {
          * action/behaviour.
          *
          * public static void displayMessage() {
-         *     -> CODE HERE iss the body of the method, this code will run everytime, method is used/ called. this is
+         *     -> CODE HERE is the body of the method, this code will run everytime, method is used/ called. this is
          *     what makes it re-usable
          * }
          */

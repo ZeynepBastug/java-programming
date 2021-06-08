@@ -25,7 +25,7 @@ public class StringConcat {
         System.out.println("" +num1 + num2);
 
         // EMPTY STRING:
-        // It's a String with no value. It's empth, but it is still String object.
+        // It's a String with no value. It's empty, but it is still String object.
         // How;
         //     String word = ""; word has empty string value now.
         //     " " -> space

@@ -11,8 +11,8 @@ public class StringComparison {
         //   -> DATA/ATTRIBUTES
         //   -> BEHAVIOUR
 
-        // From CLASS Wwe create OBJECTS
-        // OBJECT is real things that is created from a certain class. It is concrete.
+        // From CLASS we create OBJECTS
+        // OBJECT is a real thing that is created from a certain class. It is concrete.
 
         // String  -> is a class/template/blueprint that can be used to create objects
         // From String class we create STRING objects.

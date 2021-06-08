@@ -24,5 +24,9 @@ public class ParseString {
         int linesOfCode = Integer.parseInt(words[2]);
         System.out.println("linesOfCode = " + linesOfCode);
 
+        int num12 = 1001;
+        Integer n = num12;
+        System.out.println(n);
+        String num13 = n.toString();
     }
 }

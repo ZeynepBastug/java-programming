@@ -21,6 +21,7 @@ public class MethodsWithInputs {
         greetByName("Zeynep");
     }
         public static void displayValue(int num) {
+
             System.out.println("value is " + num);
         }
 

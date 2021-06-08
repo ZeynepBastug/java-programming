@@ -12,6 +12,7 @@ public class OverloadMain {
     }
 
     private static void main(int i) {
+
         System.out.println("hello" + i);
     }
 

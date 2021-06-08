@@ -28,7 +28,7 @@ public class StringCreationMethods {
         //         -> import java.util.Scanner;
         //         -> import java.util.*;
         //         -> import all classes from java.util. package
-        // * - means everything.
+        // .* - means everything.
         // When we use .*, it does not mean that all imported classes are loaded to our program. Only the ones that we
         // actually use are loaded to our program.
 

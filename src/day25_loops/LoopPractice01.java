@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class LoopPractice01 {
     public static void main(String[] args) {
 
+        // add even numbers till 100
         int sum = 0;
         for(int i = 0; i <= 100; i += 2) {
             System.out.print(i + " ");
@@ -12,6 +13,7 @@ public class LoopPractice01 {
         }
         System.out.println("\nsum " + sum);
 
+        // add odd numbers til 100
         for(int i = 1; i <= 99; i += 2){
             System.out.print(i + " ");
         }
@@ -33,7 +35,7 @@ public class LoopPractice01 {
         }
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Upper of Lower");
+        System.out.println("Upper or Lower");
         String answer = scan.nextLine();
         System.out.println("do you wanna show the alphabet in ascending or descending?");
         String answer2 = scan.nextLine();

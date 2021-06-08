@@ -3,7 +3,7 @@ package day37_methods_overloading;
 public class MethodOverloading {
     public static void main(String[] args) {
 
-        MethodOverloading.sum(10,5);
+        sum(10,5);
         sum(10.4,5.5);
         sum(4, 1, 2);
         sum("Hello", "World");

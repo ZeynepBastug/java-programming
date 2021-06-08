@@ -14,18 +14,22 @@ public class StringUtils {
         System.out.println("isPalindrome(str) = " + isPalindrome(str));
         str = "kayak";
         System.out.println("isPalindrome(str) = " + isPalindrome(str));
-        str = "cybertek";
+
+
 
 
     }
 
     public static boolean isNullOrEmpty(String str){
         // return (str == null || str.isEmpty());
-        if(str == null || str.isEmpty()){
+        if(str == null || str.isEmpty()){  // null condition must be first otherwise Error will show when the code is run.
             return true;
         }
         return false;
     }
+    // String word = null;
+    // System.out.println(word.isEmpty());
+    // Above line will throw NullPointerException, because we are trying to run a string method on NO STRING/NULL
 
     public static boolean isPalindrome(String str){
         str = str.toLowerCase();
