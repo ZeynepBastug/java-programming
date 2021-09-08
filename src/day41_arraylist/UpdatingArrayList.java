@@ -17,9 +17,9 @@ public class UpdatingArrayList {
 
         // jeep, lada, yugo, toyota, mazda, ford, moskvich, tesla
         System.out.println(myCars.toString());
+        System.out.println(myCars);
 
         String allCarsIn1St = myCars.toString(); // saves all cars in 1 string variables
-
         System.out.println("allCarsIn1St = " + allCarsIn1St);
 
         myCars.set(1, "Lamborghini");
@@ -45,7 +45,7 @@ public class UpdatingArrayList {
 
 
         // lada -> bugatti
-        if(myCars.contains("Toyota")){
+        if(myCars.contains("Toyota")){  // using if condition to avoid error
             myCars.set(myCars.indexOf("Toyota"), "Bugatti");
             System.out.println(myCars);
         } else {

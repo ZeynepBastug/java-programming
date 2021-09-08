@@ -4,6 +4,10 @@ import java.util.*;
 
 public class Info {
     public static void main(String[] args) {
+        // procedure -> does not return a value , just executes block of code. in java we call them VOID methods.
+        //  function -> returns a value, executes blocks of code and returns a certain value. in java we call them Methods with return or NON-Void methods.
+
+
         System.out.println(fullName());
         System.out.println(isMarried());
         System.out.println(age());
@@ -20,6 +24,7 @@ public class Info {
         System.out.println(married);
         System.out.println(a);
         System.out.println(year);
+
     }
 
     public static String fullName(){

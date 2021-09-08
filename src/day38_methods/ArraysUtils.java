@@ -3,9 +3,7 @@ package day38_methods;
 import java.util.*;
 
 public class ArraysUtils {
-    public static void main(String[] args) {
 
-    }
     public static void printArray(int[] nums){
         for (int num : nums) {
             System.out.print(num + " ");

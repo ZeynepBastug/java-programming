@@ -7,7 +7,7 @@ public class CallDisplayMethod {
     // Custom method, cannot run by itself, it needs to be CALLED/USED by name
 
     // We need to run the code :
-    // 1)
+    // 1) create custom method
     // 2) call out custom method inside the main method
     public static void main(String[] args) {
         //classname.methodName

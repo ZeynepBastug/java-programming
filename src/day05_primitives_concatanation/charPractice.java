@@ -16,7 +16,7 @@ public class charPractice {
 
         char gender = 77;
         System.out.println(gender);
-        // when using char data tyoe,we have 2 options for value:
+        // when using char data type,we have 2 options for value:
         // 1) 1 character in single quotes
         //     ex: char grade = 'A';
         // 2) number that represents the single character:

@@ -5,6 +5,7 @@ public class ArraysUtilsTest {
         int[] nums = {5, 23, 1, 543, 98};
 
         ArraysUtils.printArray(nums);
+
         ArraysUtils.printArray(new int[] {23, 64, 534, 76,23,10, 9});
 
         System.out.println("Sum = " + ArraysUtils.sum(nums));

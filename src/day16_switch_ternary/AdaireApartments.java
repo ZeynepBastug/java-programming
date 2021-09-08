@@ -19,6 +19,7 @@ public class AdaireApartments {
                 System.out.println("two bedroom apartment selected");
                 startingPrice = 2899;
                 break;
+            default:
         }
 
         System.out.println("Starting price: $" + startingPrice);

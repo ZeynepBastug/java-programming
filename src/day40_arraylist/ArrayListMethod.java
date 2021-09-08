@@ -49,6 +49,5 @@ public class ArrayListMethod {
         System.out.println(shoppingList);
 
 
-
     }
 }
